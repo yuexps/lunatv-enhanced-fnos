@@ -1,0 +1,12 @@
+{
+    ".url": {
+        "lunatv-enhanced.Application": {
+            "title": "LunaTV Enhanced Edition",
+            "icon": "images/icon_{0}.png",
+            "type": "url",
+            "protocol": "http",
+            "port": "22391",
+            "url": "/"
+        }
+    }
+}

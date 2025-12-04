@@ -1,0 +1,11 @@
+appname=lunatv-enhanced
+version=1.0.0
+display_name=LunaTV Enhanced
+desc=基于 MoonTV 深度二次开发的全功能影视聚合播放平台，新增 YouTube 集成、网盘搜索、AI 推荐、短剧功能、IPTV 直播、Bangumi 动漫、播放统计、弹幕系统等 50+ 重大功能增强，打造极致的在线观影体验。
+arch=x86_64
+source=thirdparty
+maintainer=SzeMeng76
+distributor=yuexps
+desktop_uidir=ui
+service_port=22391
+desktop_applaunchname=lunatv-enhanced.Application

@@ -2,7 +2,7 @@ services:
   lunatv-enhanced-core-fnos:
     image: ghcr.nju.edu.cn/szemeng76/lunatv:latest
     container_name: lunatv-enhanced-core-fnos
-    restart: on-failure
+    restart: always
     ports:
       - '22391:3000'
     environment:
@@ -19,7 +19,7 @@ services:
   lunatv-enhanced-kvrocks-fnos:
     image: apache/kvrocks
     container_name: lunatv-enhanced-kvrocks-fnos
-    restart: unless-stopped
+    restart: always
     volumes:
       - lunatv-enhanced-data-fnos:/var/lib/kvrocks
     networks:
